@@ -6,7 +6,7 @@ My app helps gamers on a budget decide which Steam game to buy by comparing game
 
 ## Problem
 
-There are thousands of games on Steam, and it can be hard to decide which one is worth buying. My app helps gamers find games they can afford that have good reviews and deals so they don't waste their money.
+There are so many games on Steam, and it can be very hard to decide which ones are worth buying. My app helps gamers find games that they can afford with good reviews and deals so they don't waste their money.
 
 ## What it does
 
@@ -22,21 +22,71 @@ The [Steam Games Dataset](https://www.kaggle.com/datasets/artermiloff/steam-game
 
 ## Built with
 
-- Python and pandas, in Google Colab
-- Coming soon: CheapShark API
+Python
+pandas
+Google Colab
+CheapShark API (price information)
+ipywidgets (interactive interface)
+GitHub
 
 ## How to run it
 
-Coming soon
+1. Open steam_smart_buy.ipynb in Google Colab.
+2. Make sure steam_games.csv is available in Google Drive.
+3. Run all notebook cells in order.
+4. Select a game genre from the dropdown menu.
+5. Choose a max budget using the slider.
+6. Click "Find My Games".
+7. View the recommended games, prices, and estimated savings.
+
+An internet connection is required to retrieve prices from CheapShark.
 
 ## Example output
 
-Coming soon
+Example search: Action games with a $20 budget.
 
+Game
+
+Dataset Price
+
+Lowest Price
+
+Estimated Savings
+
+Katana ZERO
+
+$14.99
+
+$8.99
+
+40%
+
+Vampire Survivors
+
+$4.99
+
+$4.99
+
+0%
+
+Pizza Tower
+
+$19.99
+
+$19.99
+
+0%
+
+People Playground
+
+$9.99
+
+$9.99
+
+0%
 ## AI Use Disclosure
 
-Coming soon
-
+Ai was used for general trouble shooting and help with integrating Cheapshark Api, it also helped me understand errors and helped fix them, But all code was mine.
 ## Author
 
 Carson Williams
